@@ -6,3 +6,4 @@ __maintainer__ = "Oltion Zefi"
 __email__ = "oltionzefi@gmail.com"
 
 from .binary_tree import BinaryTree
+from .trie import TrieNode
