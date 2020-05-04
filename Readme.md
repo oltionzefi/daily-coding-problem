@@ -3,6 +3,12 @@ Daily Coding Problem
 
 This repository serves as a learning path for different Programming Language using Daily Coding Problems.
 
+## Steps
+
+* Write solution for 20 problems with unittest
+* Check solution written and improve
+* Update unittest
+
 ## Language: Python
 
 1. [Daily Coding Problem #1](problem_1/problem.md)
