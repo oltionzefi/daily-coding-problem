@@ -9,6 +9,15 @@ This repository serves as a learning path for different Programming Language usi
 * Check solution written and improve
 * Update unittest
 
+## Solution steps
+
+* Brute force solution with first approach (not the best solution)
+* Trying to come up with recursive solution (using or not using caching)
+* Using dynamic programming with bottom-up approach
+* Discussing cost of solutions
+
+P.S. Not always will follow the above solution steps
+
 ## Language: Python
 
 1. [Daily Coding Problem #1](problem_1/problem.md)

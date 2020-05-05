@@ -15,7 +15,7 @@ class Problem13TestCase(unittest.TestCase):
         self.assertEqual(None, longest_substr(self.string, self.k_2))
 
     def test_longest_substr_3(self):
-        self.assertEqual("abcba", longest_substr(self.string, self.k_3))
+        self.assertEqual(self.string, longest_substr(self.string, self.k_3))
 
 
 if __name__ == "__main__":
