@@ -5,4 +5,4 @@ __version__ = "1.0"
 __maintainer__ = "Oltion Zefi"
 __email__ = "oltionzefi@gmail.com"
 
-from .problem_4 import lowest_value
+from .problem_6 import add, get
