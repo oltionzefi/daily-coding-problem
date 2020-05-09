@@ -1,5 +1,5 @@
 import unittest
-from problem_16 import LogWithCircularBuffer, Log
+from problem_17 import LogWithCircularBuffer, Log
 
 
 class Problem16TestCase(unittest.TestCase):
