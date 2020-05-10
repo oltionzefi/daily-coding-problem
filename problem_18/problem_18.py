@@ -1,4 +1,4 @@
-import collections
+from collections import deque
 # Time Complexity: O(N * K).
 # The outer loop runs n-k+1 times and the inner loop runs k times for every iteration of outer loop.
 # So time complexity is O((n-k+1)*k) which can also be written as O(N * K).
@@ -31,24 +31,30 @@ def max_sub_arrays(array, k):
 
 def max_value_sub_arrays_deque(array, n, k):
     values = []
-    queue = collections.deque()
+    queue = deque()
 
     for i in range(k):
         while queue and array[i] >= array[queue[-1]]:
+            # O(1) complexity
             queue.pop()
+        # O(1) complexity
         queue.append(i)
 
     for i in range(k, n):
+        # O(1) complexity
         values.append(array[queue[0]])
         while queue and queue[0] <= i-k:
+            # O(1) complexity
             queue.popleft()
-            print(queue)
 
         while queue and array[i] >= array[queue[-1]]:
+            # O(1) complexity
             queue.pop()
 
+        # O(1) complexity
         queue.append(i)
 
+    # O(1) complexity
     values.append(array[queue[0]])
     return values
 
