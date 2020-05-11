@@ -20,6 +20,12 @@ class Problem4TestCase(unittest.TestCase):
     def test_lowest_value_4(self):
         self.assertEqual(6, lowest_value(self.set4))
 
+    def test_lowest_value_insertion_sort_1(self):
+        self.assertEqual(2, lowest_value(self.set1, 2))
+
+    def test_lowest_value_insertion_sort_2(self):
+        self.assertEqual(3, lowest_value(self.set2, 2))
+
 
 if __name__ == '__main__':
     unittest.main()
