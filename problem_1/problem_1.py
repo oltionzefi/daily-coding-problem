@@ -26,7 +26,8 @@ def two_numbers_add_to_sum(array, total, i):
 
 # Second solution with memoization
 def count_sets_mem(array, total):
-    mem = {} # Empty dictionary
+    # Empty dictionary
+    mem = {}
     return two_numbers_add_to_sum_mem(array, total, len(array)-1, mem)
 
 

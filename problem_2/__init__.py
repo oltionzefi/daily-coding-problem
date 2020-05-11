@@ -5,4 +5,4 @@ __version__ = "1.0"
 __maintainer__ = "Oltion Zefi"
 __email__ = "oltionzefi@gmail.com"
 
-from .problem_2 import prod_element, production
+from .problem_2 import prod_element, production, prod_element_rec, prod_element_rec_mem
