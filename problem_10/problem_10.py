@@ -33,7 +33,7 @@ class Scheduler:
             with self.lock:
                 if not self.fns:
                     # wait for new job
-                    self.condition.wait()
+                    self.condition.wait(timeout=1000)
                 else:
                     ms_remaining = min(due for fn, due in self.fns) - time() * 1000
                     if ms_remaining > 0:
