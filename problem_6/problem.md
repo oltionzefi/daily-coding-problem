@@ -13,4 +13,4 @@ functions that converts between nodes and memory addresses.
 
 - [ ] Easy
 - [ ] Medium
-- [ ] Hard
+- [x] Hard
