@@ -271,6 +271,7 @@ P.S. Not always will follow the above solution steps
 259. [Daily Coding Problem #259](problem_259)
 260. [Daily Coding Problem #260](problem_260)
 261. ...
+316. [Daily Coding Problem #316](problem_316)
 317. [Daily Coding Problem #317](problem_317)
 318. [Daily Coding Problem #318](problem_318)
 319. [Daily Coding Problem #319](problem_319)
