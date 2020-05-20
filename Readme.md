@@ -290,4 +290,4 @@ at our rules before [contributing your code](CONTRIBUTING.md).
 
 ### License
 
-Burger Docs is licensed under the [MIT License](LICENSE).
+Daily Coding Problem is licensed under the [MIT License](LICENSE).
