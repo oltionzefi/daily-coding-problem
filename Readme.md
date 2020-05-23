@@ -280,6 +280,7 @@ P.S. Not always will follow the above solution steps
 322. [Daily Coding Problem #322](problem_322)
 323. [Daily Coding Problem #323](problem_323)
 325. [Daily Coding Problem #325](problem_325)
+326. [Daily Coding Problem #326](problem_326)
 327. [Daily Coding Problem #327](problem_327)
 328. [Daily Coding Problem #328](problem_328)
 
