@@ -283,6 +283,7 @@ P.S. Not always will follow the above solution steps
 326. [Daily Coding Problem #326](problem_326)
 327. [Daily Coding Problem #327](problem_327)
 328. [Daily Coding Problem #328](problem_328)
+330. [Daily Coding Problem #330](problem_330)
 
 
 ### Submitting bugs and feature requests
