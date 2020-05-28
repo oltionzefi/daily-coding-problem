@@ -8,3 +8,4 @@
 - [ ] Fix problem 316 for conditional changes
 - [ ] Fix problem 325 to convert the value and use graph
 - [ ] Fix problem 330 with 2cnf satisfiable
+- [ ] Better implementation of problem 329 with stable marriage
